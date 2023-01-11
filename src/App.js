@@ -6,7 +6,7 @@ import Sider from "antd/es/layout/Sider";
 import {
     BranchesOutlined,
     CalendarOutlined, LinkedinOutlined,
-    MenuOutlined,
+    MenuOutlined, MoreOutlined,
     PartitionOutlined,
     PlayCircleOutlined,
     UserOutlined
@@ -58,7 +58,7 @@ function App() {
         getItem('Subscriptions', '2', <PlayCircleOutlined/>),
         getItem('Calendar', '3', <CalendarOutlined/>),
         getItem('Suggester', '3', <PartitionOutlined/>),
-        getItem('Reports', '3', <LinkedinOutlined/>),
+        getItem('Reports', '3', <MoreOutlined/>),
     ];
 
     const columns = [
